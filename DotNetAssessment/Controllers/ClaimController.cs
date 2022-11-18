@@ -22,9 +22,9 @@ namespace DotNetAssessment.Controllers
         }
 
         [HttpGet("getClaimsByVehicle")]
-        public IEnumerable<Claim> GetClaimsByVehicle(Vehicle vehicle)
+        public IEnumerable<Claim> GetClaimsByVehicle(int vehicleId)
         {
-            return claimService.GetClaimsByVehicle(vehicle);
+            return claimService.GetClaimsByVehicle(vehicleId);
         }
 
         [HttpPost(Name = "addClaim")]

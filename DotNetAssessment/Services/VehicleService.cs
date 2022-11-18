@@ -38,9 +38,9 @@ namespace DotNetAssessment.Services
             context.SaveChanges();
         }
 
-        public IEnumerable<Vehicle> GetVehicleByOwner(Owner owner)
+        public IEnumerable<Vehicle> GetVehicleByOwner(int ownerId)
         {
-            return context.Vehicles.Where(o => o.OwnerId == owner.Id).ToList();
+            return context.Vehicles.Where(o => o.OwnerId == ownerId).ToList();
         }
     }
 }

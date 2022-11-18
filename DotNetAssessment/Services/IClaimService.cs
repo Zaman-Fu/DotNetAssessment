@@ -10,6 +10,6 @@ namespace DotNetAssessment.Services
         Claim UpdateClaim(Claim owner);
         void DeleteClaim(int id);
 
-        IEnumerable<Claim> GetClaimsByVehicle(Vehicle vehicle);
+        IEnumerable<Claim> GetClaimsByVehicle(int vehicleId);
     }
 }

@@ -38,9 +38,9 @@ namespace DotNetAssessment.Services
             return claim;
         }
         
-        public IEnumerable<Claim> GetClaimsByVehicle(Vehicle vehicle)
+        public IEnumerable<Claim> GetClaimsByVehicle(int vehicleId)
         {
-            return context.Claims.Where(o => o.VehicleId == vehicle.Id).ToList();
+            return context.Claims.Where(o => o.VehicleId == vehicleId).ToList();
         }
     }
 }
