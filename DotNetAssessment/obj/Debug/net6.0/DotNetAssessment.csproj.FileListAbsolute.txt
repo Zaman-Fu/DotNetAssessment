@@ -1,0 +1,7 @@
+C:\Users\Andras.Varga\Documents\AssesmentNet\DotNetAssessment\DotNetAssessment\obj\Debug\net6.0\DotNetAssessment.csproj.AssemblyReference.cache
+C:\Users\Andras.Varga\Documents\AssesmentNet\DotNetAssessment\DotNetAssessment\obj\Debug\net6.0\DotNetAssessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andras.Varga\Documents\AssesmentNet\DotNetAssessment\DotNetAssessment\obj\Debug\net6.0\DotNetAssessment.AssemblyInfoInputs.cache
+C:\Users\Andras.Varga\Documents\AssesmentNet\DotNetAssessment\DotNetAssessment\obj\Debug\net6.0\DotNetAssessment.AssemblyInfo.cs
+C:\Users\Andras.Varga\Documents\AssesmentNet\DotNetAssessment\DotNetAssessment\obj\Debug\net6.0\DotNetAssessment.csproj.CoreCompileInputs.cache
+C:\Users\Andras.Varga\Documents\AssesmentNet\DotNetAssessment\DotNetAssessment\obj\Debug\net6.0\DotNetAssessment.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Andras.Varga\Documents\AssesmentNet\DotNetAssessment\DotNetAssessment\obj\Debug\net6.0\DotNetAssessment.MvcApplicationPartsAssemblyInfo.cache
