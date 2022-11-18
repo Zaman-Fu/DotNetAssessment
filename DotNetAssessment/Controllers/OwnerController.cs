@@ -9,7 +9,7 @@ namespace DotNetAssessment.Controllers
     public class OwnerController : ControllerBase
     {
 
-        public IOwnerService ownerService;
+        private readonly IOwnerService ownerService;
         public OwnerController(IOwnerService ownerService)
         {
             this.ownerService = ownerService;

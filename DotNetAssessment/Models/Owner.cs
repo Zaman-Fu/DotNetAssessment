@@ -16,6 +16,6 @@ namespace DotNetAssessment.Models
         
         public string DriverLicense { get; set; }
 
-        public ICollection<Vehicle> Vehicles { get; set; }
+      // public ICollection<Vehicle> Vehicles { get; set; }
     }
 }
