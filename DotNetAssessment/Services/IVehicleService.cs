@@ -9,5 +9,6 @@ namespace DotNetAssessment.Services
         IEnumerable<Vehicle> GetVehicles();
         Vehicle UpdateVehicle(Vehicle owner);
         void DeleteVehicle(int id);
+        IEnumerable<Vehicle> GetVehicleByOwner(Owner owner);
     }
 }

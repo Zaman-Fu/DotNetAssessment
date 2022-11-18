@@ -37,5 +37,10 @@ namespace DotNetAssessment.Services
             context.SaveChanges();
             return claim;
         }
+        
+        public IEnumerable<Claim> GetClaimsByVehicle(Vehicle vehicle)
+        {
+            return context.Claims.Where(o => o.VehicleId == vehicle.Id);
+        }
     }
 }

@@ -9,5 +9,7 @@ namespace DotNetAssessment.Services
         IEnumerable<Claim> GetClaims();
         Claim UpdateClaim(Claim owner);
         void DeleteClaim(int id);
+
+        IEnumerable<Claim> GetClaimsByVehicle(Vehicle vehicle);
     }
 }
