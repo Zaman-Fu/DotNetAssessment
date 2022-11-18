@@ -18,7 +18,7 @@ namespace DotNetAssessment.Controllers
         [HttpGet(Name = "getVehicles")]
         public IEnumerable<Vehicle> GetVehicles() { return vehicleService.GetVehicles(); }
 
-        [HttpGet(Name = "getVehiclesByOwner")]
+        [HttpGet("getVehiclesByOwner")]
         public IEnumerable<Vehicle> GetVehiclesByOwner(Owner owner) 
         {
             return vehicleService.GetVehicleByOwner(owner);

@@ -40,7 +40,7 @@ namespace DotNetAssessment.Services
         
         public IEnumerable<Claim> GetClaimsByVehicle(Vehicle vehicle)
         {
-            return context.Claims.Where(o => o.VehicleId == vehicle.Id);
+            return context.Claims.Where(o => o.VehicleId == vehicle.Id).ToList();
         }
     }
 }

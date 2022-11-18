@@ -21,7 +21,7 @@ namespace DotNetAssessment.Controllers
             return claimService.GetClaims();
         }
 
-        [HttpGet(Name = "getClaimsByVehicle")]
+        [HttpGet("getClaimsByVehicle")]
         public IEnumerable<Claim> GetClaimsByVehicle(Vehicle vehicle)
         {
             return claimService.GetClaimsByVehicle(vehicle);

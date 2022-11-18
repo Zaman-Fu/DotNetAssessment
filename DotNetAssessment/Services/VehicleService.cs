@@ -40,7 +40,7 @@ namespace DotNetAssessment.Services
 
         public IEnumerable<Vehicle> GetVehicleByOwner(Owner owner)
         {
-            return context.Vehicles.Where(o => o.OwnerId == owner.Id);
+            return context.Vehicles.Where(o => o.OwnerId == owner.Id).ToList();
         }
     }
 }
